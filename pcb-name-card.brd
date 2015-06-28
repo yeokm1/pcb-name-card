@@ -1918,7 +1918,7 @@ yeokhengmeng.com</text>
 <text x="31.7722" y="41.228921875" size="1.27" layer="22" font="vector" rot="MR0">Caution: Look away from LEDs 
 before toggling the switches</text>
 <text x="12.9" y="9.96" size="1.4224" layer="22" rot="MR0">CR2025</text>
-<text x="2.74" y="29.01" size="1.27" layer="22" rot="MR270">Rev 1</text>
+<text x="2.74" y="29.01" size="1.27" layer="22" rot="MR270">Rev 2</text>
 <text x="50.571403125" y="41.473115625" size="1.4224" layer="21" font="vector">algoaccess.com</text>
 <rectangle x1="58.8391" y1="43.3959" x2="58.9915" y2="43.4213" layer="21"/>
 <rectangle x1="64.1731" y1="43.3959" x2="64.3763" y2="43.4213" layer="21"/>
