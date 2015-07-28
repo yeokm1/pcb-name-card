@@ -17036,8 +17036,7 @@ before toggling the switches</text>
 <text x="39.3" y="6.1" size="1.016" layer="22" font="vector" rot="MR0">https://github.com/yeokm1/pcb-name-card</text>
 <text x="39" y="41" size="1.27" layer="22" font="vector" rot="MR90">White</text>
 <text x="39" y="9" size="1.27" layer="22" font="vector" rot="MR90">UV</text>
-<text x="35" y="42" size="1.016" layer="22" font="vector" rot="MR0">This is not any other name card,
-every piece is hand-assembled by me.</text>
+<text x="36" y="9" size="1.27" layer="22" font="vector" rot="MR0">Hand-assembled by yours truly</text>
 </plain>
 <libraries>
 <library name="led">
