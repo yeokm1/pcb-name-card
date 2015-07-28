@@ -17033,11 +17033,11 @@ before toggling the switches</text>
 <rectangle x1="57.5233" y1="40.0477" x2="82.9233" y2="40.0731" layer="21"/>
 <rectangle x1="57.5233" y1="40.0731" x2="82.9233" y2="40.0985" layer="21"/>
 <rectangle x1="57.5233" y1="40.0985" x2="82.9233" y2="40.1239" layer="21"/>
-<text x="36.3" y="7.1" size="1.016" layer="22" font="vector" rot="MR0">Every one is a labour of love,
-return it if you don't want it anymore.
-https://github.com/yeokm1/pcb-name-card</text>
+<text x="39.3" y="6.1" size="1.016" layer="22" font="vector" rot="MR0">https://github.com/yeokm1/pcb-name-card</text>
 <text x="39" y="41" size="1.27" layer="22" font="vector" rot="MR90">White</text>
 <text x="39" y="9" size="1.27" layer="22" font="vector" rot="MR90">UV</text>
+<text x="35" y="42" size="1.016" layer="22" font="vector" rot="MR0">This is not any other name card,
+every piece is hand-assembled by me.</text>
 </plain>
 <libraries>
 <library name="led">
