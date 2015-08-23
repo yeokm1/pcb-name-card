@@ -66,7 +66,7 @@ Total Unit Cost: SG$6.10  + SG$7.17 (BOM cost) = SG$13.82
 
 ####Individual cost at minimum order for 50 Elecrow pieces:  
 Total PCB Cost: US$62.47 + US$18.81 (DHL) = US$81.28  
-Individual PCB Cost: (US$81.28 * 1.3)/50 = SG$2.11  
+Individual PCB Cost: (US$81.28 * 1.3) / 50 = SG$2.11  
 Total Unit Cost: SG$2.11  + SG$3.19 (BOM cost) = SG$5.30  
 
 
