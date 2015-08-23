@@ -29,7 +29,7 @@ Total BOM cost : SG$7.17 (SG$3.19)
 
 ###PCB fabrication
 
-PCB fabrication is currently done by [Elecrow (10-layer-link)](http://www.elecrow.com/10pcs-2-layer-pcb-p-1175.html) based on the following settings. Remember to consult the order submission specifications at the bottom of the previos link before submitting. Use the provided Gerber generator to produce the Gerber files.
+PCB fabrication is currently done by [Elecrow (10-pieces-link)](http://www.elecrow.com/10pcs-2-layer-pcb-p-1175.html) or [(50-pieces-link)](http://www.elecrow.com/50pcs-2-layer-pcb-enig-p-1172.html) based on the following settings. Remember to consult the order submission specifications at the bottom of the previos link before submitting. Use the provided Gerber generator to produce the Gerber files.
 
 Elecrow requires the following gerber files to be zipped up for submission:
 
@@ -42,7 +42,7 @@ Silk Bottom:	pcbname.GBO
 NC Drill:	pcbname.TXT  
 Mechanical layer :	pcbname.GML  
 
-The zip file has been uploaded to the Releases section.
+The zip file for this design has been uploaded to the Releases section.
 
 ####My Fabrication Settings: 
 
@@ -66,7 +66,7 @@ Total Unit Cost: SG$6.10  + SG$7.17 (BOM cost) = SG$13.82
 
 ####Individual cost at minimum order for 50 Elecrow pieces:  
 Total PCB Cost: US$62.47 + US$18.81 (DHL) = US$81.28  
-Individual PCB Cost: (US$81.28 * 1.3)/50 = SG$2.11  
+Individual PCB Cost: (US$81.28 * 1.3) / 50 = SG$2.11  
 Total Unit Cost: SG$2.11  + SG$3.19 (BOM cost) = SG$5.30  
 
 
