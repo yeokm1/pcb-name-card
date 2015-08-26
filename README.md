@@ -50,7 +50,7 @@ The zip file for this design has been uploaded to the Releases section.
 2. PCB Thickness: 0.6mm
 3. Copper Weight : 1oz 35um (NA for 50 pieces)
 4. PCB Size : 10cm Max * 10cm Max (or 50cm2 for 50 pieces)
-5. PCB Color : Black
+5. PCB Color : Blue or Black
 6. Surface Finish: ENIG
 7. PCB Stencil : NO Stencil
 8. Lead time : Shipped in 4 to 7 days (NA for 50 pieces)
