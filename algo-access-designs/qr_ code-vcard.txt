@@ -1,0 +1,9 @@
+BEGIN:VCARD
+N:Yeo;Kheng Meng
+EMAIL:khengmeng@algoaccess.com
+ORG:Algo Access Pte Ltd
+TEL;CELL:+65 97390391
+TITLE:Software/Hardware Engineer
+URL;WORK:http://algoaccess.com
+URL:http://yeokhengmeng.com
+END:VCARD
