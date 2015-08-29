@@ -62,7 +62,7 @@ The zip file for this design has been uploaded to the Releases section.
 8. Lead time : Shipped in 4 to 7 days (NA for 50 pieces)
 9. Panelizing : Single PCB with milling
 
-###PCB Cost
+###PCB Cost including delivery
 Assume US$1 = SG$1.3
 
 ####Unit cost for 10 PCBs
