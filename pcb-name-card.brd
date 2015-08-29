@@ -147,14 +147,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="83" y1="53" x2="1" y2="53" width="0" layer="20"/>
-<wire x1="1" y1="53" x2="0" y2="52" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="52" x2="0" y2="1" width="0" layer="20"/>
-<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="1" y1="0" x2="83" y2="0" width="0" layer="20"/>
-<wire x1="83" y1="0" x2="84" y2="1" width="0" layer="20" curve="90"/>
-<wire x1="84" y1="1" x2="84" y2="52" width="0" layer="20"/>
-<wire x1="84" y1="52" x2="83" y2="53" width="0" layer="20" curve="90"/>
+<wire x1="1.4142125" y1="0" x2="82.5857875" y2="0" width="0" layer="20"/>
+<wire x1="82.5857875" y1="0" x2="84" y2="1.4142125" width="0" layer="20" curve="90"/>
+<wire x1="84" y1="1.4142125" x2="84" y2="51.5857875" width="0" layer="20"/>
+<wire x1="84" y1="51.5857875" x2="82.5857875" y2="53" width="0" layer="20" curve="90"/>
+<wire x1="82.5857875" y1="53" x2="1.4142125" y2="53" width="0" layer="20"/>
+<wire x1="1.4142125" y1="53" x2="0" y2="51.5857875" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="51.5857875" x2="0" y2="1.4142125" width="0" layer="20"/>
+<wire x1="0" y1="1.4142125" x2="1.4142125" y2="0" width="0" layer="20" curve="90"/>
 <text x="1.688840625" y="34.961959375" size="4.064" layer="21" font="vector">YEO KHENG MENG</text>
 <text x="1.670040625" y="30.955559375" size="2.1844" layer="21" font="vector">Software/Hardware Developer</text>
 <text x="1.688840625" y="20.961959375" size="1.9304" layer="21" font="vector">(65) 97390391
