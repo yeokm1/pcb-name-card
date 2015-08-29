@@ -157,7 +157,7 @@
 <wire x1="0" y1="1.4142125" x2="1.4142125" y2="0" width="0" layer="20" curve="90"/>
 <text x="1.688840625" y="34.961959375" size="4.064" layer="21" font="vector">YEO KHENG MENG</text>
 <text x="1.670040625" y="30.955559375" size="2.1844" layer="21" font="vector">Software/Hardware Developer</text>
-<text x="1.688840625" y="21.961959375" size="1.9304" layer="21" font="vector">(65) 97390391
+<text x="1.688840625" y="20.961959375" size="1.9304" layer="21" font="vector">(65) 97390391
 khengmeng@algoaccess.com
 yeokhengmeng.com</text>
 <rectangle x1="54.156959375" y1="7.9940375" x2="54.736078125" y2="8.0245125" layer="22"/>
