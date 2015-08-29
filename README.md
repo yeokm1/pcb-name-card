@@ -1,10 +1,11 @@
 # pcb-name-card
 
+My name/business card that is on a Printed Circuit Board (PCB).
 
 ###PCB Design software and addons used
 
 1. Eagle 7.3.0: I use Standard but Light should still be able to open/modify the files.
-2. CR2032 libraries
+2. Modified CR2032 library based on [here](https://github.com/nickaknudson/eagle-nickaknudson/blob/master/cr2032.lbr)
 2. Elecrow Design Rule Check for 2 layers (in repo as `Elecrow_2-layer_eagle_rule.dru`)
 3. Elecrow Gerber Generater 2-layer board (in repo as `Elecrow_Gerber_Generater_DrillAlign.cam`)
 
@@ -12,7 +13,13 @@
 
 Images are exported from Eagle at 600dpi.
 
-...
+![Screen](images/board.png)
+
+The board layout as seen in Eagle.
+
+![Screen](images/schematic.png)
+
+The board schematic as seen in Eagle.
 
 ###Bill of Materials (BOM) for components only
 Assume minimum order 10 pieces, cost in Singapore dollars. There are additional savings if I order more say 50 units but the savings are still small. Delivery for BOM not included.
