@@ -24,7 +24,7 @@ The board schematic as seen in Eagle.
 ###Bill of Materials (BOM) for components only
 Assume minimum order 10 pieces, cost in Singapore dollars. There are additional savings if I order more say 50 units but the savings are still small. Delivery for BOM not included.
 
-1) SW1 and SW2: SMD Toggle Switch. [SeeedStudio 311030005 Source: $0.40 * 2](http://www.seeedstudio.com/depot/index.php?main_page=opl_info&opl_id=219) or [Digikey Source: $1.90 * 2](http://www.digikey.sg/product-detail/en/AYZ0202AGRLC/401-2013-1-ND/1640122)  
+1) SW1 and SW2: SMD Toggle DPDT Switch. [SeeedStudio 311030005 Source: $0.40 * 2](http://www.seeedstudio.com/depot/index.php?main_page=opl_info&opl_id=219) or [Digikey Source: $1.90 * 2](http://www.digikey.sg/product-detail/en/AYZ0202AGRLC/401-2013-1-ND/1640122)  
 2) LED1: [UV LED in PLCC package: $0.47](https://sg.rs-online.com/web/p/uv-leds/8184462/)  
 3) LED2: [Neutral While LED 4500K in PLCC package: $0.52](http://sg.element14.com/avago-technologies/asmt-uwb1-nx3e2/led-smd-plcc2-neutral-white-4500k/dp/1895842)  
 4) R1: [10 ohm resistor 2010 package: $0.21](http://sg.element14.com/yageo-phycomp/rc2010fk-0710rl/resistor-prc111-2010-10r/dp/9235590)  
