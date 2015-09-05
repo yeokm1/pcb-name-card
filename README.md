@@ -42,7 +42,7 @@ Total BOM cost : SG$4.19
 
 ###PCB fabrication
 
-PCB fabrication is currently done by [Elecrow (10-pieces-link)](http://www.elecrow.com/10pcs-2-layer-pcb-p-1175.html) or [(50-pieces-link)](http://www.elecrow.com/50pcs-2-layer-pcb-enig-p-1172.html) based on the following settings. Remember to consult the order submission specifications at the bottom of the previos link before submitting. Use the provided Gerber generator to produce the Gerber files.
+PCB fabrication is currently done by [Elecrow (10-pieces-link)](http://www.elecrow.com/10pcs-2-layer-pcb-p-1175.html) or [(50-pieces-link)](http://www.elecrow.com/50pcs-2-layer-pcb-enig-p-1172.html) based on the following settings. Remember to consult the order submission specifications at the bottom of the previous link before submitting. Use the provided Gerber generator to produce the Gerber files.
 
 Elecrow requires the following gerber files to be zipped up for submission:
 
