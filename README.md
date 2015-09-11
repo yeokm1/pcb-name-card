@@ -1,6 +1,9 @@
 # pcb-name-card
 
-My name/business card that is on a Printed Circuit Board (PCB).
+My name/business card that is on a Printed Circuit Board (PCB). Comes with an white LED, UV LED and a ruler. Not forgetting a QR code containing my contact details in [Vcard](https://en.wikipedia.org/wiki/VCard) format.
+
+![Screen](images/pcb-name-card-main-resized.jpg)
+My latest fabricated Revision 6.
 
 ###PCB Design software and addons used
 
@@ -15,13 +18,20 @@ Images are exported from Eagle at 600dpi.
 
 ![Screen](images/board.png)
 
-The board layout as seen in Eagle.
+The board layout as seen in Eagle. This Rev 7 version has some minor adjustments in silkscreen positions but has yet to be frabricated. 
 
 ![Screen](images/schematic.png)
 
 The board schematic as seen in Eagle.
 
 ###Bill of Materials (BOM) for components only
+
+![Screen](images/pcb-name-card-bom1-resized.jpg)
+Components in their raw form
+
+![Screen](images/pcb-name-card-bom2.jpg)
+Components still in their original packets from different suppliers.
+
 Assume minimum order 10 pieces, cost in Singapore dollars. There are additional savings if I order more say 50 units but the savings are still small. Delivery for BOM not included.
 
 1) SW1 and SW2: SMD Toggle DPDT Switch. [SeeedStudio 311030005 Source: $0.40 * 2](http://www.seeedstudio.com/depot/index.php?main_page=opl_info&opl_id=219) or [Digikey Source: $1.90 * 2](http://www.digikey.sg/product-detail/en/AYZ0202AGRLC/401-2013-1-ND/1640122)  
