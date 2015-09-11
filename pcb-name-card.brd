@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5483,10 +5483,10 @@ before toggling the switches</text>
 <text x="82" y="2" size="1.778" layer="22" font="vector" rot="MR0">0</text>
 <text x="57" y="2" size="1.778" layer="22" font="vector" rot="MR0">1</text>
 <text x="32" y="2" size="1.778" layer="22" font="vector" rot="MR0">2</text>
-<text x="37" y="6.1" size="1.016" layer="22" font="vector" rot="MR0">https://github.com/yeokm1/pcb-name-card</text>
+<text x="37.5" y="6.1" size="1.016" layer="22" font="vector" rot="MR0">https://github.com/yeokm1/pcb-name-card</text>
 <text x="39.5" y="7.5" size="1.27" layer="22" font="vector" rot="MR90">White</text>
 <text x="39.5" y="42.3" size="1.27" layer="22" font="vector" rot="MR90">UV</text>
-<text x="37" y="8" size="1.27" layer="22" font="vector" rot="MR0">Hand-assembled by yours truly</text>
+<text x="37.5" y="8" size="1.27" layer="22" font="vector" rot="MR0">Hand-assembled by yours truly</text>
 <rectangle x1="56.9875" y1="13.9875" x2="81.9875" y2="14.0125" layer="21"/>
 <rectangle x1="56.9875" y1="14.0125" x2="81.9875" y2="14.0375" layer="21"/>
 <rectangle x1="56.9875" y1="14.0375" x2="81.9875" y2="14.0625" layer="21"/>
