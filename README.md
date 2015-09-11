@@ -5,12 +5,13 @@ My name/business card that is on a Printed Circuit Board (PCB). Comes with an wh
 ![Screen](images/pcb-name-card-main-resized.jpg)
 My latest fabricated Revision 6.
 
-###PCB Design software and addons used
+###PCB Design software and addons/references used
 
 1. Eagle 7.3.0: I use Standard but Light should still be able to open/modify the files.
 2. Modified CR2032 library based on [here](https://github.com/nickaknudson/eagle-nickaknudson/blob/master/cr2032.lbr)
 2. Elecrow Design Rule Check for 2 layers (in repo as `Elecrow_2-layer_eagle_rule.dru`)
 3. Elecrow Gerber Generater 2-layer board (in repo as `Elecrow_Gerber_Generater_DrillAlign.cam`)
+4. QR code generated from [here](http://goqr.me/)
 
 ###Schematic drawings
 
