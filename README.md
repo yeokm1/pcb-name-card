@@ -19,7 +19,9 @@ Images are exported from Eagle at 600dpi.
 
 ![Screen](images/board.png)
 
-The board layout as seen in Eagle. This Rev 7 version has some minor adjustments in silkscreen positions but has yet to be frabricated. 
+The board layout as seen in Eagle. This Rev 7 version has some minor adjustments in silkscreen/component positions but has yet to be frabricated. 
+
+There is a dummy wire on the top layer around the QR code. This is to prevent PCB manufacturers from getting confused about my design if I specify a 2-layer order but only have the electrical areas at the bottom of the card. The dummy electrical wire on top "appeases" their requirement that I have electrical stuff on top and bottom.
 
 ![Screen](images/schematic.png)
 
