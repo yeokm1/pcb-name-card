@@ -19246,6 +19246,7 @@ before toggling the switches</text>
 <rectangle x1="56.9875" y1="38.9125" x2="81.9875" y2="38.9375" layer="21"/>
 <rectangle x1="56.9875" y1="38.9375" x2="81.9875" y2="38.9625" layer="21"/>
 <rectangle x1="56.9875" y1="38.9625" x2="81.9875" y2="38.9875" layer="21"/>
+<text x="6" y="2" size="1.778" layer="22" font="vector" rot="MR0">3</text>
 </plain>
 <libraries>
 <library name="led">
