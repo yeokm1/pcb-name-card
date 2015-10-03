@@ -3,7 +3,7 @@
 My name or business card that is on a Printed Circuit Board (PCB). Comes with an white LED, UV LED and a ruler. Not forgetting a QR code containing my contact details in [Vcard](https://en.wikipedia.org/wiki/VCard) format.
 
 ![Screen](images/pcb-name-card-main-resized.jpg)
-My latest fabricated Revision 6.
+My latest fabricated Revision 7.
 
 ###PCB Design software and addons/references used
 
@@ -19,7 +19,7 @@ Images are exported from Eagle at 600dpi.
 
 ![Screen](images/board.png)
 
-The board layout as seen in Eagle. This Rev 7 version has some minor adjustments in silkscreen/component positions but has yet to be frabricated. 
+The board layout as seen in Eagle.
 
 There is a dummy wire on the top layer around the QR code. This is to prevent PCB manufacturers from getting confused about my design if I specify a 2-layer order but only have the electrical areas at the bottom of the card. The dummy electrical wire on top "appeases" their requirement that I have electrical stuff on top and bottom.
 
