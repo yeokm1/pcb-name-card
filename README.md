@@ -29,7 +29,7 @@ The board schematic as seen in Eagle.
 
 ###Bill of Materials (BOM) for components only
 
-![Screen](images/pcb-name-card-bom1-resized.jpg)
+![Screen](images/pcb-name-card-bom1-resized.jpg)  
 Components in their raw form
 
 ![Screen](images/pcb-name-card-bom2.jpg)
