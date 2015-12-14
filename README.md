@@ -58,15 +58,15 @@ PCB fabrication is currently done by [Elecrow (10-pieces-link)](http://www.elecr
 ###PCB Cost including delivery
 Assume US$1 = SG$1.3
 
-####Unit cost for 10 PCBs
+####Unit cost for 10 PCBs only
 Total PCB Cost: US$30.80 + US$16.17 (DHL) = US$46.97  
 Individual PCB Cost: (US$46.97 * 1.3) / 10 = SG$6.10  
 
-####Unit cost for 50 PCBs
+####Unit cost for 50 PCBs only
 Total PCB Cost: US$62.47 + US$18.81 (DHL) = US$81.28  
 Individual PCB Cost: (US$81.28 * 1.3) / 50 = SG$2.11  
 
-###Total Unit cost (SGD$)
+###Total Unit cost (SGD$) with components
 
 | Pieces | Young Blue | Formal Black |
 |--------|------------|--------------|
