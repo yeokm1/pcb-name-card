@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3829,6 +3829,83 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ntag21xf">
+<packages>
+<package name="HXSON4">
+<wire x1="-1.175" y1="-0.825" x2="1.175" y2="-0.825" width="0.127" layer="21"/>
+<wire x1="1.175" y1="-0.825" x2="1.175" y2="0.825" width="0.127" layer="21"/>
+<wire x1="1.175" y1="0.825" x2="-1.175" y2="0.825" width="0.127" layer="21"/>
+<wire x1="-1.175" y1="0.825" x2="-1.175" y2="-0.825" width="0.127" layer="21"/>
+<smd name="P$1" x="-0.75" y="0.25" dx="0.45" dy="0.25" layer="1"/>
+<smd name="P$2" x="-0.75" y="-0.25" dx="0.45" dy="0.25" layer="1"/>
+<smd name="P$4" x="0.75" y="0.25" dx="0.45" dy="0.25" layer="1"/>
+<smd name="P$3" x="0.75" y="-0.25" dx="0.45" dy="0.25" layer="1"/>
+<smd name="P$5" x="0" y="0" dx="1" dy="0.8" layer="1" rot="R90"/>
+<circle x="-0.9" y="0.6" radius="0.1" width="0" layer="21"/>
+<text x="-0.7" y="1" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+<package name="HXSON4-SMALL">
+<wire x1="-1.175" y1="-0.825" x2="1.175" y2="-0.825" width="0.127" layer="21"/>
+<wire x1="1.175" y1="-0.825" x2="1.175" y2="0.825" width="0.127" layer="21"/>
+<wire x1="1.175" y1="0.825" x2="-1.175" y2="0.825" width="0.127" layer="21"/>
+<wire x1="-1.175" y1="0.825" x2="-1.175" y2="-0.825" width="0.127" layer="21"/>
+<smd name="P$1" x="-0.75" y="0.25" dx="0.4" dy="0.2" layer="1"/>
+<smd name="P$2" x="-0.75" y="-0.25" dx="0.4" dy="0.2" layer="1"/>
+<smd name="P$4" x="0.75" y="0.25" dx="0.4" dy="0.2" layer="1"/>
+<smd name="P$3" x="0.75" y="-0.25" dx="0.4" dy="0.2" layer="1"/>
+<smd name="P$5" x="0" y="0" dx="0.95" dy="0.75" layer="1" rot="R90"/>
+<circle x="-0.9" y="0.6" radius="0.1" width="0" layer="21"/>
+<text x="-0.7" y="1" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="NTAG21XF">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="LB" x="-12.7" y="-2.54" visible="pin" length="middle"/>
+<pin name="LA" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="FD" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<pin name="FLOAT" x="0" y="-10.16" visible="off" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NTAG21XF" prefix="IC">
+<gates>
+<gate name="G$1" symbol="NTAG21XF" x="17.78" y="5.08"/>
+</gates>
+<devices>
+<device name="ORIG" package="HXSON4">
+<connects>
+<connect gate="G$1" pin="FD" pad="P$3"/>
+<connect gate="G$1" pin="FLOAT" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="LA" pad="P$4"/>
+<connect gate="G$1" pin="LB" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DRC-FIT" package="HXSON4-SMALL">
+<connects>
+<connect gate="G$1" pin="FD" pad="P$3"/>
+<connect gate="G$1" pin="FLOAT" pad="P$5" route="any"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="LA" pad="P$4"/>
+<connect gate="G$1" pin="LB" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3847,6 +3924,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U1" library="cr2032-large-side" deviceset="CR2032" device="SMT" value="3V"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R2010" value="10 ohm"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R2010" value="330 ohm"/>
+<part name="IC1" library="ntag21xf" deviceset="NTAG21XF" device="DRC-FIT"/>
 </parts>
 <sheets>
 <sheet>
@@ -3870,6 +3948,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="R1" gate="G$1" x="81.28" y="93.98"/>
 <instance part="R2" gate="G$1" x="81.28" y="81.28"/>
+<instance part="IC1" gate="G$1" x="38.1" y="116.84"/>
 </instances>
 <busses>
 </busses>
@@ -3968,6 +4047,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="43.18" y="101.6"/>
 <wire x1="33.02" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 <junction x="43.18" y="91.44"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="LA"/>
+<wire x1="50.8" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="119.38" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="129.54" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="129.54" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="LB"/>
+<wire x1="20.32" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
