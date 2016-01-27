@@ -1918,7 +1918,7 @@ yeokhengmeng.com</text>
 <rectangle x1="52.66928125" y1="44.5700375" x2="53.096" y2="44.6005125" layer="22"/>
 <text x="51" y="39.7722" size="1.016" layer="22" font="vector" rot="MR270">Caution: Look away from LEDs 
 before toggling the switches</text>
-<text x="25.21" y="19.06" size="1.016" layer="22" font="vector" rot="MR0">Rev 8</text>
+<text x="25.21" y="19.06" size="1.016" layer="22" font="vector" rot="MR0">Rev 9</text>
 <text x="47.671403125" y="42.473115625" size="1.4224" layer="21" font="vector">algoaccess.com</text>
 <rectangle x1="55.9391" y1="44.3959" x2="56.0915" y2="44.4213" layer="21"/>
 <rectangle x1="61.2731" y1="44.3959" x2="61.4763" y2="44.4213" layer="21"/>
@@ -20434,20 +20434,32 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="ntag21xf">
+<library name="ntagi2c">
 <packages>
-<package name="HXSON4-SMALL">
-<wire x1="-1.175" y1="-0.825" x2="1.175" y2="-0.825" width="0.127" layer="21"/>
-<wire x1="1.175" y1="-0.825" x2="1.175" y2="0.825" width="0.127" layer="21"/>
-<wire x1="1.175" y1="0.825" x2="-1.175" y2="0.825" width="0.127" layer="21"/>
-<wire x1="-1.175" y1="0.825" x2="-1.175" y2="-0.825" width="0.127" layer="21"/>
-<smd name="P$1" x="-0.75" y="0.25" dx="0.4" dy="0.2" layer="1"/>
-<smd name="P$2" x="-0.75" y="-0.25" dx="0.4" dy="0.2" layer="1"/>
-<smd name="P$4" x="0.75" y="0.25" dx="0.4" dy="0.2" layer="1"/>
-<smd name="P$3" x="0.75" y="-0.25" dx="0.4" dy="0.2" layer="1"/>
-<smd name="P$5" x="0" y="0" dx="0.95" dy="0.75" layer="1" rot="R90"/>
-<circle x="-0.9" y="0.6" radius="0.1" width="0" layer="21"/>
-<text x="-0.7" y="1" size="0.8128" layer="25">&gt;NAME</text>
+<package name="TSSOP-8">
+<wire x1="-0.6" y1="1.4484" x2="0.6" y2="1.4484" width="0.2032" layer="21" curve="180"/>
+<wire x1="-2.1484" y1="-1.4484" x2="2.1484" y2="-1.4484" width="0.2032" layer="21"/>
+<wire x1="2.1484" y1="-1.4484" x2="2.1484" y2="1.4484" width="0.2032" layer="21"/>
+<wire x1="2.1484" y1="1.4484" x2="-2.1484" y2="1.4484" width="0.2032" layer="21"/>
+<wire x1="-2.1484" y1="1.4484" x2="-2.1484" y2="-1.4484" width="0.2032" layer="21"/>
+<smd name="1" x="-2.875" y="0.975" dx="0.9" dy="0.35" layer="1"/>
+<smd name="2" x="-2.875" y="0.325" dx="0.9" dy="0.35" layer="1"/>
+<smd name="3" x="-2.875" y="-0.325" dx="0.9" dy="0.35" layer="1"/>
+<smd name="4" x="-2.875" y="-0.975" dx="0.9" dy="0.35" layer="1"/>
+<smd name="5" x="2.875" y="-0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="6" x="2.875" y="-0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="7" x="2.875" y="0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="8" x="2.875" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<text x="-3.048" y="1.778" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-3.2" y1="0.825" x2="-2.25" y2="1.125" layer="51"/>
+<rectangle x1="-3.2" y1="0.175" x2="-2.25" y2="0.475" layer="51"/>
+<rectangle x1="-3.2" y1="-0.475" x2="-2.25" y2="-0.175" layer="51"/>
+<rectangle x1="-3.2" y1="-1.125" x2="-2.25" y2="-0.825" layer="51"/>
+<rectangle x1="2.25" y1="-1.125" x2="3.2" y2="-0.825" layer="51" rot="R180"/>
+<rectangle x1="2.25" y1="-0.475" x2="3.2" y2="-0.175" layer="51" rot="R180"/>
+<rectangle x1="2.25" y1="0.175" x2="3.2" y2="0.475" layer="51" rot="R180"/>
+<rectangle x1="2.25" y1="0.825" x2="3.2" y2="1.125" layer="51"/>
+<circle x="-1.6" y="0.9" radius="0.2" width="0" layer="21"/>
 </package>
 </packages>
 </library>
@@ -20660,7 +20672,7 @@ design rules under a new name.</description>
 <element name="U1" library="cr2032-large-side" package="CR2032-SMD" value="3V" x="11" y="27" smashed="yes" rot="MR270"/>
 <element name="R1" library="resistor" package="R2010" value="10 ohm" x="69" y="43" smashed="yes" rot="MR210"/>
 <element name="R2" library="resistor" package="R2010" value="330 ohm" x="68.7" y="9.4" smashed="yes" rot="MR150"/>
-<element name="IC1" library="ntag21xf" package="HXSON4-SMALL" value="NTAG21XFDRC-FIT" x="25.6" y="42.5" smashed="yes" rot="MR90"/>
+<element name="IC2" library="ntagi2c" package="TSSOP-8" value="NT3H1X01W0FTT" x="25.1" y="42.5" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -21074,8 +21086,6 @@ design rules under a new name.</description>
 <wire x1="45" y1="40.205309375" x2="45" y2="37.7" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$6">
-<contactref element="IC1" pad="P$4"/>
-<contactref element="IC1" pad="P$2"/>
 <wire x1="2" y1="44" x2="2" y2="8" width="0.5" layer="1"/>
 <wire x1="6" y1="4" x2="78" y2="4" width="0.5" layer="1"/>
 <wire x1="2" y1="8" x2="6" y2="4" width="0.5" layer="1" curve="90"/>
@@ -21098,10 +21108,8 @@ design rules under a new name.</description>
 <wire x1="5" y1="44" x2="5" y2="8" width="0.5" layer="1"/>
 <wire x1="5" y1="8" x2="6" y2="7" width="0.5" layer="1" curve="90"/>
 <wire x1="6" y1="7" x2="78" y2="7" width="0.5" layer="1"/>
-<wire x1="6" y1="45" x2="24" y2="45" width="0.5" layer="1"/>
-<via x="24" y="45" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="24" y1="45" x2="24" y2="42" width="0.3048" layer="16"/>
-<wire x1="24" y1="42" x2="25.35" y2="41.75" width="0.3048" layer="16"/>
+<wire x1="6" y1="45" x2="22.2" y2="45" width="0.5" layer="1"/>
+<via x="22.2" y="45" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="79" y1="44" x2="78" y2="45" width="0.5" layer="1" curve="90"/>
 <wire x1="78" y1="45" x2="27" y2="45" width="0.5" layer="1"/>
 <wire x1="27" y1="45" x2="24" y2="46" width="0.5" layer="1"/>
@@ -21110,7 +21118,7 @@ design rules under a new name.</description>
 <wire x1="78" y1="46" x2="27" y2="46" width="0.5" layer="1"/>
 <wire x1="27" y1="46" x2="24" y2="47" width="0.5" layer="1"/>
 <wire x1="24" y1="47" x2="6" y2="47" width="0.5" layer="1"/>
-<via x="27" y="48" extent="1-16" drill="0.6" shape="square"/>
+<via x="28" y="48" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="81" y1="8" x2="81" y2="44" width="0.5" layer="1"/>
 <wire x1="81" y1="44" x2="78" y2="47" width="0.5" layer="1" curve="90"/>
 <wire x1="78" y1="47" x2="27" y2="47" width="0.5" layer="1"/>
@@ -21118,9 +21126,11 @@ design rules under a new name.</description>
 <wire x1="24" y1="48" x2="6" y2="48" width="0.5" layer="1"/>
 <wire x1="82" y1="8" x2="82" y2="44" width="0.5" layer="1"/>
 <wire x1="82" y1="44" x2="78" y2="48" width="0.5" layer="1" curve="90"/>
-<wire x1="78" y1="48" x2="27" y2="48" width="0.5" layer="1"/>
-<wire x1="25.85" y1="43.25" x2="27" y2="44" width="0.3048" layer="16"/>
-<wire x1="27" y1="44" x2="27" y2="48" width="0.3048" layer="16"/>
+<wire x1="78" y1="48" x2="28" y2="48" width="0.5" layer="1"/>
+<contactref element="IC2" pad="1"/>
+<contactref element="IC2" pad="8"/>
+<wire x1="22.225" y1="43.475" x2="22.2" y2="45" width="0.5" layer="16"/>
+<wire x1="27.975" y1="43.475" x2="28" y2="48" width="0.5" layer="16"/>
 </signal>
 </signals>
 </board>
