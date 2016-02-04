@@ -3926,7 +3926,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <smd name="P$4" x="0.75" y="0.25" dx="0.4" dy="0.2" layer="1"/>
 <smd name="P$3" x="0.75" y="-0.25" dx="0.4" dy="0.2" layer="1"/>
 <smd name="P$5" x="0" y="0" dx="0.95" dy="0.75" layer="1" rot="R90"/>
-<circle x="-0.9" y="0.6" radius="0.1" width="0" layer="21"/>
+<circle x="-0.9" y="0.57" radius="0.125" width="0" layer="21"/>
 <text x="-0.7" y="1" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 </packages>
