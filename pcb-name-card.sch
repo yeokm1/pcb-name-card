@@ -3833,28 +3833,30 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <packages>
 <package name="TSSOP-8">
 <wire x1="-0.6" y1="1.4484" x2="0.6" y2="1.4484" width="0.2032" layer="21" curve="180"/>
-<wire x1="-2.1484" y1="-1.4484" x2="2.1484" y2="-1.4484" width="0.2032" layer="21"/>
-<wire x1="2.1484" y1="-1.4484" x2="2.1484" y2="1.4484" width="0.2032" layer="21"/>
-<wire x1="2.1484" y1="1.4484" x2="-2.1484" y2="1.4484" width="0.2032" layer="21"/>
-<wire x1="-2.1484" y1="1.4484" x2="-2.1484" y2="-1.4484" width="0.2032" layer="21"/>
-<smd name="1" x="-2.875" y="0.975" dx="0.9" dy="0.35" layer="1"/>
-<smd name="2" x="-2.875" y="0.325" dx="0.9" dy="0.35" layer="1"/>
-<smd name="3" x="-2.875" y="-0.325" dx="0.9" dy="0.35" layer="1"/>
-<smd name="4" x="-2.875" y="-0.975" dx="0.9" dy="0.35" layer="1"/>
-<smd name="5" x="2.875" y="-0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="6" x="2.875" y="-0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="7" x="2.875" y="0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="8" x="2.875" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<text x="-3.048" y="1.778" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-3.2" y1="0.825" x2="-2.25" y2="1.125" layer="51"/>
-<rectangle x1="-3.2" y1="0.175" x2="-2.25" y2="0.475" layer="51"/>
-<rectangle x1="-3.2" y1="-0.475" x2="-2.25" y2="-0.175" layer="51"/>
-<rectangle x1="-3.2" y1="-1.125" x2="-2.25" y2="-0.825" layer="51"/>
-<rectangle x1="2.25" y1="-1.125" x2="3.2" y2="-0.825" layer="51" rot="R180"/>
-<rectangle x1="2.25" y1="-0.475" x2="3.2" y2="-0.175" layer="51" rot="R180"/>
-<rectangle x1="2.25" y1="0.175" x2="3.2" y2="0.475" layer="51" rot="R180"/>
-<rectangle x1="2.25" y1="0.825" x2="3.2" y2="1.125" layer="51"/>
-<circle x="-1.6" y="0.9" radius="0.2" width="0" layer="21"/>
+<wire x1="-1.6484" y1="-1.4484" x2="1.6484" y2="-1.4484" width="0.2032" layer="21"/>
+<wire x1="1.6484" y1="-1.4484" x2="1.6484" y2="1.4484" width="0.2032" layer="21"/>
+<wire x1="1.6484" y1="1.4484" x2="0.6" y2="1.4484" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="1.4484" x2="-0.6" y2="1.4484" width="0.2032" layer="21"/>
+<wire x1="-0.6" y1="1.4484" x2="-1.6484" y2="1.4484" width="0.2032" layer="21"/>
+<wire x1="-1.6484" y1="1.4484" x2="-1.6484" y2="-1.4484" width="0.2032" layer="21"/>
+<smd name="1" x="-2.375" y="0.975" dx="0.9" dy="0.35" layer="1"/>
+<smd name="2" x="-2.375" y="0.325" dx="0.9" dy="0.35" layer="1"/>
+<smd name="3" x="-2.375" y="-0.325" dx="0.9" dy="0.35" layer="1"/>
+<smd name="4" x="-2.375" y="-0.975" dx="0.9" dy="0.35" layer="1"/>
+<smd name="5" x="2.375" y="-0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="6" x="2.375" y="-0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="7" x="2.375" y="0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="8" x="2.375" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<text x="-2.548" y="1.778" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-2.7" y1="0.825" x2="-1.75" y2="1.125" layer="51"/>
+<rectangle x1="-2.7" y1="0.175" x2="-1.75" y2="0.475" layer="51"/>
+<rectangle x1="-2.7" y1="-0.475" x2="-1.75" y2="-0.175" layer="51"/>
+<rectangle x1="-2.7" y1="-1.125" x2="-1.75" y2="-0.825" layer="51"/>
+<rectangle x1="1.75" y1="-1.125" x2="2.7" y2="-0.825" layer="51" rot="R180"/>
+<rectangle x1="1.75" y1="-0.475" x2="2.7" y2="-0.175" layer="51" rot="R180"/>
+<rectangle x1="1.75" y1="0.175" x2="2.7" y2="0.475" layer="51" rot="R180"/>
+<rectangle x1="1.75" y1="0.825" x2="2.7" y2="1.125" layer="51"/>
+<circle x="-1.1" y="0.9" radius="0.25" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
