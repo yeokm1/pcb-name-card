@@ -43,7 +43,7 @@ The BOM is available in the odt spreadsheets in this repo.
 
 PCB fabrication is currently done by [Elecrow (10-pieces-link)](http://www.elecrow.com/10pcs-2-layer-pcb-p-1175.html) or [(50-pieces-link)](http://www.elecrow.com/50pcs-2-layer-pcb-enig-p-1172.html) based on the following settings. Remember to consult the order submission specifications at the bottom of the previous link before submitting. Use the provided Gerber generator to produce the Gerber files.
 
-####My Fabrication Settings: 
+####My Fabrication Settings:
 
 1. Layer: 2
 2. PCB Thickness: 0.6mm
@@ -70,5 +70,5 @@ Individual PCB Cost: (US$81.28 * 1.3) / 50 = SG$2.11
 
 | Pieces | Young Blue | Formal Black |
 |--------|------------|--------------|
-| 10 | $14.30 | $15.45 |
-| 50 | $9.30 | $10.51 |
+| 10 | $15.53 | $17.19 |
+| 50 | $10.53 | $12.26 |
