@@ -2,8 +2,7 @@
 
 My name or business card that is on a Printed Circuit Board (PCB). Comes with an white LED, UV LED and a ruler. Not forgetting a QR code containing my contact details in [Vcard](https://en.wikipedia.org/wiki/VCard) format.
 
-![Screen](images/pcb-name-card-main-resized.jpg)
-My latest fabricated Revision 7.
+[![My slides on slideshare](images/first-slide.png)](http://www.slideshare.net/yeokm1/pcb-business-card)
 
 ###PCB Design software and addons/references used
 
@@ -72,3 +71,9 @@ Individual PCB Cost: (US$81.28 * 1.3) / 50 = SG$2.11
 |--------|------------|--------------|
 | 10 | $15.53 | $17.19 |
 | 50 | $10.53 | $12.26 |
+
+#References
+1. [How to design a 13.56 MHz
+customized tag antenna](http://www.st.com/st-web-ui/static/active/jp/resource/technical/document/application_note/CD00221490.pdf)
+2. [The impact of high pulse drain on CR2032 coin-cell battery capacity](http://m.eet.com/media/1121454/c0924post.pdf)
+3. [Panasonic NFC Design Navigator](http://www.semicon.panasonic.co.jp/en/tool/nfcdesignnavigator/)
