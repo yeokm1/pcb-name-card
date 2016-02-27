@@ -2,6 +2,8 @@
 
 My name or business card that is on a Printed Circuit Board (PCB). Comes with an white LED, UV LED and a ruler. Not forgetting a QR code containing my contact details in [Vcard](https://en.wikipedia.org/wiki/VCard) format.
 
+I gave a talk on my name card, slides available in the picture link below.
+
 [![My slides on slideshare](images/first-slide.png)](http://www.slideshare.net/yeokm1/pcb-business-card)
 
 ###PCB Design software and addons/references used
