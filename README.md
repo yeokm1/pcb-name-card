@@ -22,8 +22,6 @@ Images are exported from Eagle at 600dpi.
 
 The board layout as seen in Eagle.
 
-There is a dummy wire on the top layer around the QR code. This is to prevent PCB manufacturers from getting confused about my design if I specify a 2-layer order but only have the electrical areas at the bottom of the card. The dummy electrical wire on top "appeases" their requirement that I have electrical stuff on top and bottom.
-
 ![Screen](images/schematic.png)
 
 The board schematic as seen in Eagle.
